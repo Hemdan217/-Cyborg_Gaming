@@ -2,13 +2,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./header.css";
+import NavBar from "./NavBar";
 import logo from "../../assets/images/logo.png";
 import profile from "../../assets/images/profile-header.jpg";
 
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <nav className="navbar navbar-expand-lg nav-main navbar-dark bg-dark static-top">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={logo} alt="..." height="36" />
@@ -26,45 +27,45 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
+              <NavBar>
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
-              </li>
-              <li className="nav-item">
+              </NavBar>
+              <NavBar>
                 <a className="nav-link active" href="#">
                   Browse
                 </a>
-              </li>
-              <li className="nav-item">
+              </NavBar>
+              <NavBar>
                 <a className="nav-link active" aria-current="page" href="#">
                   Details
                 </a>
-              </li>
-              <li className="nav-item">
+              </NavBar>
+              <NavBar>
                 <a className="nav-link active" aria-current="page" href="#">
                   Streams
                 </a>
-              </li>
-              <li className="nav-item">
+              </NavBar>
+              <NavBar>
                 <a className="nav-link active" aria-current="page" href="#">
                   Profile
                   <img src={profile} alt="..." height="36" />
                 </a>
-              </li>
+              </NavBar>
             </ul>
           </div>
         </div>
       </nav>
 
-      <div class="container">
-        <h1 class="mt-4">Logo Nav by Start Bootstrap</h1>
+      {/* <div className="container">
+        <h1 className="mt-4">Logo Nav by Start Bootstrap</h1>
         <p>
           The logo in the navbar is now a default Bootstrap feature in
           Bootstrap! Make sure to set the height of the logo within the HTML or
           using CSS. For best results, use an SVG image as your logo.
         </p>
-      </div>
+      </div> */}
     </>
   );
 };

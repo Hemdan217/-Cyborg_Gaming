@@ -1,0 +1,54 @@
+.main {
+  background-color: #27292a;
+  width: 100%;
+  padding: 20px;
+}
+
+.hero {
+  background: url("../../assets/images/banner-bg.jpg") no-repeat center/cover;
+
+  min-height: 380px;
+  border-radius: 23px;
+  padding: 80px 60px;
+  margin-top: 20px;
+}
+
+h6 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+h4 {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: white;
+  font-weight: 900px;
+}
+h4 em {
+  font-style: normal;
+  color: #ec6090;
+}
+
+.main-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: #e75e8d;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  font-weight: 900px;
+}
+
+.main-button a:hover {
+  color: #e75e8d;
+  background-color: #fff;
+}

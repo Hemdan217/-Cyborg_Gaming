@@ -1,0 +1,22 @@
+.section-wrapper {
+  background-color: #1f2122;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+
+.section-header {
+  text-align: center;
+}
+.section-header h4 {
+  font-weight: 900;
+  font-size: 36px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.section-header h4 span {
+  font-weight: 900;
+  font-size: 36px;
+  color: #e05e8a;
+}

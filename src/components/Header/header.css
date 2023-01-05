@@ -1,0 +1,6 @@
+.nav-main {
+  min-height: 80px;
+  background: transparent;
+  display: flex;
+  padding: 15px 0px;
+}
